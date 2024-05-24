@@ -47,21 +47,20 @@ export default {
 .banner-principal-decorativo-1
   animation: float1 2s ease-in-out infinite alternate !important
   top: 65% !important
-  right: 75% !important
+  right: 57% !important
 .banner-principal-decorativo-2
   animation: float1 3s ease-in-out infinite alternate !important
   top: 20% !important
-  right: 78% !important
+  right: 60% !important
 .banner-principal-decorativo-3
   animation: float1 3s ease-in-out infinite alternate !important
   top: 30% !important
-  right: 7% !important
+  right: 0% !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero
   background-color: #004080 !important
 .banner-principal__row .banner-principal__img
   padding-bottom: 0rem !important
 .banner-principal__row .banner-principal__img img
-  max-width: 450px
   margin: 0 auto
 .banner-principal .tarjeta
   background-size: 100% 100% !important
