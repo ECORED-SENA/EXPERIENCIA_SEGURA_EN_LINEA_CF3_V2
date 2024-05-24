@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports = 'Riesgos asociados al uso prolongado de las nuevas tecnologías'
