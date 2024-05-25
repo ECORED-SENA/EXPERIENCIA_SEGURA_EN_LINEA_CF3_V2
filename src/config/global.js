@@ -78,7 +78,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Ciberbullying o ciberacoso',
+        titulo: '<em>Ciberbullying</em> o ciberacoso',
         desarrolloContenidos: true,
       },
     ],
