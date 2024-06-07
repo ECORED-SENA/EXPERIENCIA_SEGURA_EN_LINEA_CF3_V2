@@ -9,7 +9,7 @@
             img(src="@/assets/template/arrastrar.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Riesgos y amenazas en el uso prolongado de nuevas tecnologías. 
+          h2 Riesgos y amenazas en el uso prolongado de nuevas tecnologías
         p.mb-4 Apropiar conocimientos de los riesgos y amenazas a los cuales se exponen los usuarios digitales al hacer uso de las nuevas herramientas tecnológicas. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

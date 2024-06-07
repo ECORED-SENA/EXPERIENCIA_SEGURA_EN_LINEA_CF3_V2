@@ -129,7 +129,7 @@
           img(src="@/assets/curso/t5-c4.svg", alt="Imagen decorativa")
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
-              p.h3 Agresor
+              p.h3 Agresores
               p.small Usuario que pretende humillar o denigrar a una persona usando medios digitales y plataformas electrónicas.
 
       .col-md-4.col-lg-3
@@ -137,7 +137,7 @@
           img(src="@/assets/curso/t5-c5.svg", alt="Imagen decorativa")
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
-              p.h3 Víctima
+              p.h3 Víctimas
               p.small Usuario que recibe las humillaciones, discriminaciones o comentarios lascivos por parte de personas que atacan directamente en sus post o publicaciones.
 
       .col-md-4.col-lg-3
