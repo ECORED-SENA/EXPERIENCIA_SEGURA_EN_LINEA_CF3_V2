@@ -17,7 +17,7 @@
         p Por ello, se invita a consultar el siguiente video, para conocer el abordaje conceptual del componente:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/C_mO0z3iaMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/oO-70KrS2Ao?si=gY8RY82fDe2BByL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 
