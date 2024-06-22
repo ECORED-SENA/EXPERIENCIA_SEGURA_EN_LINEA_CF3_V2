@@ -362,7 +362,7 @@ export default {
           cargo: 'Locución ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },         
+        },
       ],
     },
     {
