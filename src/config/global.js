@@ -304,7 +304,7 @@ export default {
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Asesor metodológico y pedagógico ',
+          cargo: 'Asesor Metodológico y Pedagógico ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
@@ -325,7 +325,7 @@ export default {
         },
         {
           nombre: 'Jorge Armando Villamizar Moreno ',
-          cargo: 'Diseño web ',
+          cargo: 'Diseño Web ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
@@ -375,12 +375,12 @@ export default {
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

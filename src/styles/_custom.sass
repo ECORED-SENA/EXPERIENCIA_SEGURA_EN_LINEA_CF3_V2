@@ -10,7 +10,6 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -72,6 +71,7 @@ figcaption
 .slyder-a__bullets__item
   background-color: #AFAFAF
   border: 1px solid #AFAFAF
+  margin: 0 5px
 .titulo-principal__numero
   background-color: #FFD947
 .titulo-principal__numero span  
@@ -93,6 +93,8 @@ figcaption
   border: 3px solid #004080
 .custom-cardBlock .bloque-texto-g__texto
   width: 50%
+  @media screen and ( max-width: $bp-max-md )
+    width: 100%
 .custom-cardBlock.bloque-texto-g
   justify-content: flex-start!important
 .custom-cardBlock .bloque-texto-g__img
@@ -103,6 +105,8 @@ figcaption
   border: 3px solid #004080
 .ltr .bloque-texto-g__texto
   width: 50%
+  @media screen and ( max-width: $bp-max-md )
+    width: 100%
 .ltr.bloque-texto-g
 .blueT
   color: #004080
@@ -329,3 +333,21 @@ figcaption
   100%
     -webkit-transform: translateY(0)
     transform: translateY(0)
+
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: -35px
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  right: -35px
+
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: -50px
+
+@media (max-width: 576px)
+  .bloque-texto-g
+    padding-top: 245px !important
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/img1.png)
+    margin-inline: -3.2rem !important

@@ -6,83 +6,71 @@
       .titulo-principal__numero
         span 1
       h1 Riesgos o amenazas asociados al uso de las nuevas tecnologías
-    
-    .row.mb-5.slideInUp
+    .row.align-items-center.mb-5.slideInUp
       .col-lg-2
-        figure.mb-5
-          img.nW(src="@/assets/curso/t1-ic1.svg", alt="icono decorativo")
-
+        figure.mb-4.mb-lg-0
+          img.nW(src="@/assets/curso/t1-ic1.svg", alt="icono decorativo").m-auto
       .col-lg-10
-        p.mb-3.text-bold.blueT Las nuevas herramientas tecnológicas brindan oportunidades de comunicación, así, las redes sociales son de las más importantes porque se enfocan en el ocio y entretenimiento, permiten una comunicación permanente síncrona y asíncrona con amigos y familiares e, incluso, con personas totalmente desconocidas, pero...
-    
-    .row.mb-5.justify-content-center
+        p.mb-0.text-bold.blueT Las nuevas herramientas tecnológicas brindan oportunidades de comunicación, así, las redes sociales son de las más importantes porque se enfocan en el ocio y entretenimiento, permiten una comunicación permanente síncrona y asíncrona con amigos y familiares e, incluso, con personas totalmente desconocidas, pero...
+    .row.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5.custom-cardBlock(data-aos="flip-up")
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.custom-cardBlock(data-aos="flip-up")
           .bloque-texto-g__texto.p-4
             p.mb-0 Las TIC no solo aportan innumerables ventajas y oportunidades, <b>están acompañadas de diversos inconvenientes y peligros que afectan directamente la integridad y privacidad de la información que se comparte.</b>
-
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/t1-i1.jpg')})`}"
           )
-
-
-    #t_1_1.titulo-segundo
+    Separador
+    #t_1_1
+    .titulo-segundo
       h2 1.1  Uso prolongado de dispositivos
-    .row.mb-5(data-aos="flip-up")
-      .col-lg-2
-        figure.mb-3(data-aos="flip-left")
-          img.nW(src="@/assets/curso/t1-ic2.svg", alt="icono decorativo")
-
+    .row(data-aos="flip-up")
+      .col-lg-2.mb-4.mb-lg-0
+        figure(data-aos="flip-left")
+          img.nW(src="@/assets/curso/t1-ic2.svg", alt="icono decorativo").m-auto
       .col-lg-10
         p.mb-5 El uso abusivo y prolongado de dispositivos electrónicos afecta tanto física como mentalmente a las personas, generando depresión, ansiedad, riesgo de suicidio y adicciones, así como fallas en la atención, memoria y aprendizaje. El siguiente video ampliará la información con respecto al uso prolongado de los dispositivos:
-
-    figure.mb-5
+    figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/D7y3q8kym_0?si=ykDIrhYrXzMpsqe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
     Separador
-    br
-    br
-    #t_1_2.titulo-segundo
+    #t_1_2
+    .titulo-segundo
       h2 1.2  Riesgos y recomendaciones de buen uso
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-4.mb-lg-0
         .animatedImage(data-aos="flip-up")
-          figure.mb-5
-            img(src="@/assets/curso/t1-i2.png", alt="mujer usando un teléfono celular")
+          figure
+            img(src="@/assets/curso/t1-i2.png", style="width: 500px", alt="mujer usando un teléfono celular").m-auto
           .floatingCircle
           .floatingCircle2
       .col-lg-8(data-aos="slide-up")
         p.mb-4.text-bold.blueT  Es importante conocer los riesgos de utilizar tecnologías digitales, y ser conscientes que hacer frente a ellos es un componente clave para tener una identidad digital. 
-        p.mb-3 Las habilidades digitales no solo consisten en saber manejar un dispositivo a la perfección, sino también tener conciencia que la seguridad de la información es igual a cuando se transita por un sector que no genera confianza y se toman las medidas necesarias para protegerse. En el mundo digital no es diferente, se debe cuidar que el uso de los dispositivos no genere una adicción digital, porque en los últimos años, se han desencadenado múltiples problemas físicos y mentales; entre los riesgos más comunes están:
-
+        p.mb-0 Las habilidades digitales no solo consisten en saber manejar un dispositivo a la perfección, sino también tener conciencia que la seguridad de la información es igual a cuando se transita por un sector que no genera confianza y se toman las medidas necesarias para protegerse. En el mundo digital no es diferente, se debe cuidar que el uso de los dispositivos no genere una adicción digital, porque en los últimos años, se han desencadenado múltiples problemas físicos y mentales; entre los riesgos más comunes están:
     .neg-margin-x.bg-curve.mb-5
       .row.justify-content-center
         .col-lg-10
           figure.mb-5(data-aos="slide-up")
-            img(src="@/assets/curso/t1-info1.svg", alt="imagen decorativa")
+            img(src="@/assets/curso/t1-info1.svg", alt="Imagen que presenta los riesgos más comunes al usar dispositivos móviles.")
         .col-lg-10
-          figure.mb-5(data-aos="slide-up")
-            img(src="@/assets/curso/t1-info2.svg", alt="imagen decorativa")
-
+          figure(data-aos="slide-up")
+            img(src="@/assets/curso/t1-info2.svg", alt="Imagen que presenta los riesgos más comunes al usar dispositivos móviles.")
     .row.mb-5
       .col-lg-3
         figure.mb-5(data-aos="slide-right")
-          img(src="@/assets/curso/t1-i3.svg", alt="imagen decorativa")
+          img(src="@/assets/curso/t1-i3.svg", style="width: 400px", alt="imagen decorativa").m-auto
       .col-lg-9(data-aos="slide-left")
         p.mb-4.text-bold.blueT ¿Sabía que los riesgos ante el uso de los dispositivos podrían ser interminables?
         p.mb-4  Esto debido a que el uso excesivo de la tecnología se ve sesgado por el autocontrol por la cantidad de información que recibe a diario el cerebro. Por ello, es importante tomar en cuenta algunas consideraciones para evitar problemas físicos y psicológicos que harán que la tecnología esté bajo el control del usuario y no al contrario.
         .cajon.color-acento-botones.p-4
           p.mb-0.text-bold  El ser humano es pensante y racional, capaz de discernir cuando es el momento de hacer un alto y no depender de un aparato electrónico.
-    
-    p.mb-5  A continuación, se enlistan las recomendaciones para un buen uso de la tecnología:
+    p.mb-5 A continuación, se enlistan las recomendaciones para un buen uso de la tecnología:
     .row.justify-content-center.mb-5
       .col-lg-12
         .wrap-infografic
           .row.justify-content-center
             .col-lg-6
-              ImagenInfografica.color-secundario.mb-5
+              ImagenInfografica.color-secundario
                 template(v-slot:imagen)
                   figure
                     img(src='@/assets/curso/t1-info3.svg', alt='recomendaciones')
@@ -102,25 +90,19 @@
                   p Socializa de manera directa y guarda los dispositivos cuando estés en interacción con personas.
                 .tarjeta.color-acento-botones.p-3.shadow-box(x="0%" y="71%")
                   p Identifica cualquier síntoma de adicción digital o necesidad excesiva del uso de las tecnologías.
-
     Separador
-    br
-    br
-    #t_1_3.titulo-segundo
+    #t_1_3
+    .titulo-segundo
       h2 1.3  Uso prolongado de redes sociales
-
-    .row.mb-5(data-aos="flip-up")
-      .col-lg-2
-        figure.mb-3(data-aos="flip-left")
-          img.nW(src="@/assets/curso/t1-ic3.svg", alt="icono decorativo")
-
+    .row.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-2.mb-4.mb-lg-0
+        figure(data-aos="flip-left")
+          img.nW(src="@/assets/curso/t1-ic3.svg", alt="icono decorativo").m-auto
       .col-lg-10
-        p.mb-5 El uso excesivo de los perfiles en redes sociales y el aumento de las mismas en la era digital es cada vez más común. A continuación, se expone un recurso que permitirá conocer más sobre el tema:
-
+        p.mb-0 El uso excesivo de los perfiles en redes sociales y el aumento de las mismas en la era digital es cada vez más común. A continuación, se expone un recurso que permitirá conocer más sobre el tema:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/D7y3q8kym_0?si=7ZASsvsEZB13WGiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/odBUetptIgM?si=gLEejpxTcVmrJDjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center
       .col-lg-10
         .cajon.color-acento-botones.p-4
